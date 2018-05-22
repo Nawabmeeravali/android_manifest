@@ -74,7 +74,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ git init -u https://github.com/RevengeOS/android_manifest -b r8.1
+$ repo init -u https://github.com/RevengeOS/android_manifest -b r8.1
 ```
 
 ### Downloading the source tree ###

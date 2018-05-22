@@ -1,6 +1,6 @@
 # RevengeOS #
 
-<img src="https://github.com/RevengeOS/platform_manifest/raw/master/RevengeOs-logo.jpg"> 
+<img src="https://raw.githubusercontent.com/RevengeOS/android_manifest/r8.1/RevengeOs-logo.jpg"> 
 
 ## Setting up your machine ##
 ### Manual Way ###

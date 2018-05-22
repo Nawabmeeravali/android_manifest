@@ -74,7 +74,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ WILL BE UPDATED SOON
+$ git init -u https://github.com/RevengeOS/android_manifest -b r8.1
 ```
 
 ### Downloading the source tree ###
@@ -89,7 +89,7 @@ and their change histories.
 # The -j# option specifies the number of concurrent download threads to run.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync -j4
+$ repo sync -j8
 ```
 
 ## Building ##
@@ -100,7 +100,7 @@ $ repo sync -j4
 $ cd WORKSPACE
 # ...and run the build commands.
 $ . build/envsetup.sh
-$ lunch 
+$ lunch
 $ choose your device From the list
 $ brunch device 
 # For Eg Leeco Le max2 code name is so brunch x2

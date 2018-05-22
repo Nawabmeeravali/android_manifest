@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="RevengeOS/android_frameworks_base" path="frameworks/base" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_frameworks_support" />
+  <project name="RevengeOS/android_frameworks_support" path="frameworks/support" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project name="RevengeOS/android_frameworks_av" path="frameworks/av" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <project name="RevengeOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
+  <project name="RevengeOS/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_WallpaperPicker" />
+  <project name="RevengeOS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="r8.1" />
+  <project name="RevengeOS/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="aosp" />
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <project name="RevengeOS/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_system_core" />
+  <project name="RevengeOS/android_system_core" path="system/core" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <project name="RevengeOS/android_lineage-sdk" path="lineage-sdk" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project name="RevengeOS/android_vendor_lineage" path="vendor/lineage" remote="github" revision="r8.1" />
+  <project name="RevengeOS/android_vendor_lineagegapps" path="vendor/lineagegapps" remote="github" revision="r8.1" />
+  <project name="RevengeOS/android_vendor_lineagepixel" path="vendor/lineagepixel" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
+  <remove-project name="LineageOS/android_build" />
+  <project name="RevengeOS/android_build" path="build/make" remote="github" revision="r8.1">
+    <copyfile dest="Makefile" src="core/root.mk" />
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
+    <linkfile dest="build/core" src="core" />
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+    <linkfile dest="build/target" src="target" />
+    <linkfile dest="build/tools" src="tools" />
+  </project>
+</manifest>

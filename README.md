@@ -22,9 +22,7 @@ NOTE: Arch Linux users, use the Arch wiki page to install your packages then
 come back here: https://wiki.archlinux.org/index.php/Android#Building_Android
 
 
-######################################
 ###  Step Two: Configure Repo and Git  ###
-######################################
 
 NOTE: If you have any problems with the below commands, try running as root:
 $ sudo -s

@@ -103,7 +103,7 @@ $ . build/envsetup.sh
 $ lunch
 $ choose your device From the list
 $ brunch device 
-# For Eg Leeco Le max2 code name is so brunch x2
+# For Eg Leeco Le max2 code name is x2 so brunch x2
 ```
 
 ### Getting Help ###

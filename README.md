@@ -19,7 +19,8 @@ x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils \
 xsltproc unzip
 ```
 NOTE: Arch Linux users, use the Arch wiki page to install your packages then
-come back here: https://wiki.archlinux.org/index.php/Android#Building_Android
+come back here: <a href="https://wiki.archlinux.org/index.php/Android#Building_Android
+">Link to wiki</a>
 
 
 ###  Step Two: Configure Repo and Git  ###
@@ -30,7 +31,9 @@ $ sudo -s
 Git is an open source version control system which is incredibly robust for
 tracking changes across repositories. Repo is Google's tool for working with Git
 in the context of Android. More reading if you are interested:
-https://source.android.com/source/developing.html
+<a href="https://source.android.com/source/developing.html
+">Here</a>
+
 
 Run these commands to get repo all working (only needed if you did the manual
 method of setup above):
@@ -45,7 +48,7 @@ $ git config --global user.name "Your Name"
 $ git config --global user.email "you@example.com"
 ```
 
-###Automatic Way (recommended!) ###
+### Automatic Way (recommended!) ###
 
 -- Grab a repo with some useful scripts, and run the needed one
 ```bash
@@ -84,13 +87,13 @@ and their change histories.
 ```bash
 # Let Repo take care of all the hard work
 #
-# The -j# option specifies the number of concurrent download threads to run.
+# Tthe x on jx it's the amount of cores you have.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync -j8
+$ repo sync -f --force-sync --no-clone-bundle -jx
 ```
 
-## Building ##
+### Building ###
 
 
 ```bash
@@ -105,9 +108,8 @@ $ brunch device
 ```
 
 ### Getting Help ###
- Please refer this guide from xda
- https://forum.xda-developers.com/chef-central/android/guide-android-rom-development-t2814763
+ Please refer <a href="https://forum.xda-developers.com/chef-central/android/guide-android-rom-development-t2814763">this</a> guide from xda
  
  #### More Help ####
- Ask in Telegram Group
- https://t.me/joinchat/HFzBDkV7S-P9oT5eEDO9RQ
+ Ask in  <a href="https://t.me/joinchat/HFzBDkV7S-P9oT5eEDO9RQ">Telegram Group</a>
+

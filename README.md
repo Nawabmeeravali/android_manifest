@@ -107,7 +107,14 @@ $ brunch device
 # For Eg Leeco Le max2 code name is x2 so brunch x2
 ```
 
-### Getting Help ###
+## Thanks list ##
+
+- <a href="https://github.com/LineageOS">LineageOS</a>
+- 
+- 
+-
+
+## Getting Help ##
  Please refer <a href="https://forum.xda-developers.com/chef-central/android/guide-android-rom-development-t2814763">this</a> guide from xda
  
  #### More Help ####

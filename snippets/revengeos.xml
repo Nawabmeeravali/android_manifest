@@ -2,6 +2,8 @@
 <manifest>
   <remote fetch="https://gitlab.com/" name="gitlab" revision="r8.1" />
 
+  <remove-project name="LineageOS/android" />
+  <project name="RevengeOS/android_manifest" path="android_manifest" remote="github" revision="r8.1" />
 
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="RevengeOS/android_frameworks_base" path="frameworks/base" remote="github" revision="r8.1" />

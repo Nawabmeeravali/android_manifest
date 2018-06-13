@@ -16,9 +16,11 @@
   <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
   <project name="RevengeOS/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="github" revision="r8.1" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_Recorder" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_WallpaperPicker" />
   <project name="RevengeOS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="r8.1" />
+  <project name="RevengeOS/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="github" revision="r8.1" />
   <project name="RevengeOS/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="r8.1" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <project name="RevengeOS/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="github" revision="r8.1" />

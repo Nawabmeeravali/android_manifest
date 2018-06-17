@@ -19,6 +19,9 @@
   <remove-project name="LineageOS/android_packages_apps_Recorder" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_WallpaperPicker" />
+  <remove-project name="LineageOS/android_packages_apps_AudioFX" />
+  
+  <project name="RevengeOS/android_packages_apps_AudioFX" path="packages/apps/AudioFX" remote="github" revision="r8.1" />
   <project name="RevengeOS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="r8.1" />
   <project name="RevengeOS/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="github" revision="r8.1" />
   <project name="RevengeOS/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="r8.1" />

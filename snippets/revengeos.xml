@@ -15,6 +15,7 @@
   <project name="RevengeOS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="r8.1" />
   <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
   <project name="RevengeOS/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="github" revision="r8.1" />
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_Recorder" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />

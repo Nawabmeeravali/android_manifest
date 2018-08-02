@@ -4,7 +4,10 @@
 
   <remove-project name="LineageOS/android" />
   <project name="RevengeOS/android_manifest" path="android_manifest" remote="github" revision="r8.1" />
-
+  
+  <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+  <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+  
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="RevengeOS/android_frameworks_base" path="frameworks/base" remote="github" revision="r8.1" />
   <remove-project name="LineageOS/android_frameworks_support" />

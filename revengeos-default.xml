@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<manifest>
+
+   <remote  name="ros"
+           fetch="https://github.com/RevengeOS/"
+           revision="refs/heads/r9.0" />
+           
+  <remote name="gitlab"
+          fetch="https://gitlab.com/"
+          revision="r9.0" />
+
+  <remote  name="aex"
+           fetch="https://github.com/AospExtended/"
+           revision="refs/heads/9.x" />
+
+  <remote  name="ros-devices"
+           fetch="https://github.com/RevengeOS-Devices/" 
+           revision="refs/heads/r9.0" />
+   
+     <remote  name="los"
+           fetch="https://github.com/LineageOS/"
+           revision="refs/heads/lineage-16.0"
+           sync-j="8" />
+   
+     <remote  name="carbon"
+           fetch="git://github.com/CarbonROM"
+           revision="refs/heads/cr-7.0"
+           sync-j="8" />
+   
+   
+   <!-- FIRST: Remove unused/forked AOSP Projects -->
+  <include name="remove.xml" />
+
+  <!-- Include forked AOSP -->
+  <include name="revengeos-aosp.xml" />
+
+  <!-- Include CAF -->
+  <include name="revengeos-caf.xml" />  
+  
+</manifest>

@@ -12,9 +12,13 @@
            fetch="https://github.com/AospExtended"
            revision="refs/heads/9.x" />
 
-  <remote  name="aex-devices"
-           fetch="https://github.com/AospExtended-Devices" 
-           revision="refs/heads/9.x" />
+  <remote  name="ros"
+           fetch="https://github.com/RevengeOS"
+           revision="refs/heads/r9.0" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/"
+           revision="r9.0" />
 
   <remote  name="los"
            fetch="https://github.com/LineageOS"
@@ -717,6 +721,6 @@
 
   <!-- Custom repos -->
   <include name="snippets/remove.xml" />
-  <include name="snippets/aex.xml" />
+  <include name="snippets/ros.xml" />
 
 </manifest>

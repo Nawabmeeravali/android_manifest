@@ -52,13 +52,13 @@
   <!-- HardWare QCOM -->
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" />
 <!--<project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8084" />-->
-  <project path="hardware/qcom/audio-caf/msm8916" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="cr-7.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="cr-7.0-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="cr-7.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="cr-7.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="cr-7.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="cr-7.0-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="cr-7.0-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8998" />
 <!--<project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-845" />-->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
   <!--<project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8084" /-->
@@ -148,6 +148,7 @@
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="los" />
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" revision="lineage-15.1" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
   <!--project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="los" />-->

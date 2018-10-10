@@ -119,7 +119,7 @@
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
-  <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="github" revision="cr-7.0" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="ros" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
 

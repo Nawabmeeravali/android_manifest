@@ -60,6 +60,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
@@ -87,6 +88,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />

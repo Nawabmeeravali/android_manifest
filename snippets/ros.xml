@@ -19,10 +19,11 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk,tradefed" remote="aex" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aex" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aex" />
+  <project path="frameworks/opt/net/ims" name="shivatejapeddi/platform_frameworks_opt_net_ims" remote="github" revision="9.x" />
+  <project path="frameworks/opt/telephony" name="shivatejapeddi/platform_frameworks_opt_telephony" remote="github" revision="9.x" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk" remote="aex" />
   <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" remote="aex" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="ros" />
@@ -35,7 +36,8 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="ros" />
   <project path="packages/apps/Jelly" name="platform_packages_apps_Jelly" remote="aex" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="aex" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/services/Telecomm" name="shivatejapeddi/platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="9.x" />
+  <project path="packages/services/Telephony" name="shivatejapeddi/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="9.x" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="aex" />
@@ -44,7 +46,7 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="aex" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
+  <project path="vendor/codeaurora/telephony" name="shivatejapeddi/platform_vendor_codeaurora_telephony" remote="github" revision="9.x" />
   <project path="vendor/gapps" name="Lucchetto/android_vendor_gapps" remote="gitlab" />
   <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />
   <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />

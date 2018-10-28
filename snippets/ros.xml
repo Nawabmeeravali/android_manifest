@@ -94,7 +94,7 @@
 
 
   <!-- Ant Wireless -->
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="ros" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
 
